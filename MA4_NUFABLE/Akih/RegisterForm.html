@@ -1,0 +1,56 @@
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Registration Form</title>
+</head>
+<body>
+<h1>Student Registration Form</h1>
+<form>
+<p>Personal Information</p>
+
+<label>Last Name: <br><input type="text" name="last_name" placeholder="Enter your Last Name" required></label><br>
+<label>First Name: <br><input type="text" name="first_name" placeholder="Enter your First Name" required></label><br>
+<label>Middle Name: <br><input type="text" name="middle_name" placeholder="Enter your Middle Name"></label><br>
+
+<label>Address: <br><textarea name="txt_add"></textarea></label><br>
+<label>Birthday: <br><input type="date" name="txt_bday"> </label><br>
+<label>Gender: </label><br>
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female<br>
+<label>Password: <br><input type="password" name="password" placeholder="Enter your Password" minlength="3" maxlength="16"></label><br>
+<label>Contact Number: <br><input type="number" name="cn" placeholder="Enter your Contact Number" maxlength="11">
+</label>
+
+<h4>Education Attainment</h4>
+<label>Elementary: <br><input type="text" name="elementary" required></label><br>
+<label>Junior Highschool: <br><input type="text" name="juniorhigh" required></label><br>
+<label>Senior Highschool: <br><input type="text" name="seniorhigh" required></label><br>
+
+<label>Strand/Track: </label>
+<select>
+<option value="STEM">STEM</option>
+<option value="ABM">ABM</option>
+<option value="ICT">ICT</option>
+<option value="GAS">GAS</option>
+<option value="HUMMS">HUMSS</option>
+</select><br>
+
+<label>College: <br><input type="text" name="college" required></label><br>
+<label>Program: <br><input type="text" name="program" required></label><br>
+
+<br><label>Documents Submitted: </label><br>
+<input type="checkbox" name="tor" value="TOR">Transcript of Records<br>
+<input type="checkbox" name="bc" value="Birth_Cert">Birth Certificate<br>
+<input type="checkbox" name="ms" value="med_res">Medical Result<br>
+<input type="checkbox" name="form137" value="form_137">Form 137<br>
+<label>Upload Scanned Copy: </label><br>
+<label> upload a file</label>
+&nbsp;<input type="file" name="ur" value="upload_req"><br>
+
+<input type="submit" value="Save">
+<input type="button" value="Reset">
+</form>
+</body>
+</html>

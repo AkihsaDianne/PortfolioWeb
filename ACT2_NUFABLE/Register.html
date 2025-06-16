@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Velcrest Academy Registration</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="wrapper">
+    <form id="registrationForm" class="form-card">
+    <h2>Join Us</h2>
+<div class="input-box">
+    <input type="text" name="fullname" required />
+    <label>Full Name</label>
+</div>
+
+<div class="input-box">
+    <input type="email" name="email" required />
+    <label>Email</label>
+</div>
+
+<div class="input-box">
+    <input type="password" name="password" required />
+    <label>Password</label>
+</div>
+
+<div class="input-box">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" value="+63" 
+               
+               maxlength="11" required>
+</div>
+
+<div class="gender-box">
+    <p>Gender:</p>
+    <label><input type="radio" name="gender" value="Female" required /> Female</label>
+    <label><input type="radio" name="gender" value="Male" /> Male</label>
+    <label><input type="radio" name="gender" value="Other" /> Other</label>
+</div>
+
+<div class="input-box">
+    <input type="date" name="dob" required />
+    <label class="active">Date of Birth</label>
+</div>
+
+<div class="input-box select-box">
+    <select id ="course" required>
+    <option value="" disabled selected>Choose Course</option>
+    <option value="BS Information Technology">Computing & Information Technologies</option>
+    <option value="Engineering">Medical Technology</option>
+    <option value="Business">Accountancy and Management</option>
+    <option value="BS Medical Technology / Medical Laboratory Science">Allied Health</option>
+    <option value="BS Architecture">Architecture</option>
+    <option value="Doctor of Dental Medicine">Dentistry</option>
+    <option value="BS Psychology">Education, Arts and Sciences</option>
+    <option value="Doctor of Optometry">Education, Arts and Sciences</option>
+    </select>
+</div>
+
+<div class="checkbox-box">
+    <label><input type="checkbox" name="terms" required /> I accept Terms & Conditions</label>
+</div>
+<h6>"Where Excellence is Tradition and Vision Shapes the Future."</h6><br>
+    <button type="submit">Register</button>
+    </form>
+</div>
+    <script src="Logic.js"></script>
+</body>
+</html>

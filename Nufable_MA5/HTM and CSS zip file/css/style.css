@@ -1,0 +1,59 @@
+body {
+  font-family: serif;
+  font-size: 25px;
+  background-color: paleturquoise;
+  text-align: center;
+  padding: 50px;
+  color: rgb(122, 122, 122);
+}
+
+.card {
+  background-color: beige;
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+  border: 4px groove black;
+}
+
+.profile-img {
+  /*border-radius: 50%;*/
+  border: 3px solid black;
+  width: 150px;
+  height: 150px;
+}
+
+.title {
+  color: rgb(122, 122, 122);
+  font-size: 25px;
+
+}
+
+a {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: white;
+  background-color: gray;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+a:hover {
+  background-color: #007BFF;
+}
+
+h1 {
+  color: black;
+  font-size: 25px;
+}
+.id-num{
+  margin-top: 0;
+  font-size: medium;
+  color: black;
+}
+.course{
+  margin-top: 0;
+  font-size: 20px;
+}
